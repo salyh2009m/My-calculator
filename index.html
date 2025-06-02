@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Salyh</title>
+</head>
+<body>
+
+    <div class="tema">
+        <button class="btnTEMA" onclick="changetheme(this)" >Ak Tema</button>
+    </div>
+
+    <div class="general"> 
+        <div id="rezult">
+            <p id="numbers"></p>
+            <p id="result"></p>
+        </div>
+        <div class="btns">
+            <div class="btns1">
+                <button onclick="clearContent()">AC</button>
+                <button onclick="">X</button>
+                <button onclick="addContent(this)">%</button>
+                <button class="orange" onclick="addContent(this)">/</button>
+            </div>
+            <div class="btns1">
+                <button onclick="addContent(this)">7</button>
+                <button onclick="addContent(this)">8</button>
+                <button onclick="addContent(this)">9</button>
+                <button class="orange" onclick="addContent(this)">*</button>
+            </div>
+            <div class="btns1">
+                <button onclick="addContent(this)">4</button>
+                <button onclick="addContent(this)">5</button>
+                <button onclick="addContent(this)">6</button>
+                <button class="orange" onclick="addContent(this)">-</button>
+            </div>
+            <div class="btns1">
+                <button onclick="addContent(this)">1</button>
+                <button onclick="addContent(this)">2</button>
+                <button onclick="addContent(this)">3</button>
+                <button class="orange" onclick="addContent(this)">+</button>
+            </div>
+            <div class="btns1">
+                <button>C</button>
+                <button onclick="addContent(this)">0</button>
+                <button onclick="addContent(this)">,</button>
+                <button class="orange" onclick="resultOfContent()" >=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+ 
+</body>
+</html>
